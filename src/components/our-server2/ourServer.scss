@@ -1,0 +1,45 @@
+.our-server{
+    margin-bottom: 146px;
+    .our-server_box{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .our-server_box{
+        min-height: 474px;
+        background: radial-gradient(95.44% 490.36% at 92.87% 11.25%, #33A9FF 0%, #33FFF3 ) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        border-radius: 20px;
+        padding: 32px;
+        .our-server_img{
+            img{
+                width: 100%;
+                max-width: 750px;
+                height: 510px;               
+                border-radius: 12px;
+                opacity: 0px;
+
+            }
+        }
+        .our-server_title{
+            .our-server_title-Img{
+                padding-top: 20px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            h2{
+                padding-bottom: 50px;
+            }
+            h2{
+                max-width: 642px;
+                font-family: Unbounded;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 48px;
+                color: #FAFAFA;
+            }
+        }
+
+    }
+}

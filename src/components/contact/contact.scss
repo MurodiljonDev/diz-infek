@@ -1,0 +1,73 @@
+.contact{
+    margin-bottom: 60px;
+    .contact-box{
+        // width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 150px;
+        background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        border-radius: 20px;
+        .contact-inputs{
+            // position: relative;
+            width: 100%;
+            max-width: 484px;
+            border-radius: 8px;
+            padding: 0 24px;
+            padding-bottom: 32px;
+            background-color: #FFFFFF;
+            .contact-inputs_title{
+                h4{
+                    font-family: "Unbounded",sans-serif;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 40px;                    
+                }
+            }
+            .contact-inputs_items{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                input{
+                    text-indent: 30px;
+                    height: 48px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color:#F2F2F2;
+                }
+                input::placeholder{
+                    font-size: 18px;
+                }
+            }
+            .contact-inputs_btn{
+                padding-top: 48px;
+                width: 100%;
+                button{
+                    width: 100%;
+                    border-radius: 8px;
+                    height: 48px;
+                    background-color: #242825;
+                    border: none;
+                }
+                button:hover{
+                    background-color: #424443;
+                }
+                button{
+                    cursor: pointer;
+                    font-family: "Unbounded", sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: #FFFFFF;                    
+                }
+            }          
+        }
+        .contact-img{
+            position: relative;
+            img{
+                position: absolute;
+                top: 55px;
+                right:-50px;
+            }
+        }
+    }
+}

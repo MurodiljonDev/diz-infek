@@ -1,0 +1,52 @@
+{
+    "main":{
+        "logo": "Dizinfeksiya",
+        "nav": {
+            "one": "Asosiy",
+            "two":"Biz haqimizda",
+            "three": "Xizmatlar",
+            "four": "Faq"
+        },
+        "btn":"Bo'glanish",
+        "header" :{
+            "title":"Dizinfeksiya xizmati",
+            "description": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+        },
+        "prefer":{
+            "title":"Afzalliklarimiz",
+            "itemOne":{
+                "title":"Tezda Xizmat Ko'rsatish ",
+                "description":"АРИЗАЛАР КУНИГА 24 СОАТ ҚАБУЛ ҚИЛИНАДИ. АГАР МУАММО ШОШИЛИНЧ БЎЛСА, БИЗ ДАРҲОЛ КЕТИШИМИЗ МУМКИН. ШУ БИЛАН БИРГА, СИФАТ МУКАММАЛ БЎЛИБ ҚОЛАДИ."
+            },
+            "itemTwo":{
+                "title":"Yetuk Mutaxasislarimiz",
+                "description":"БИЗНИНГ ХОДИМЛАРИМИЗ ҲАММА НАРСАГА ҒАМХЎРЛИК ҚИЛАДИ: ҲИСОБ-КИТОБЛАР, ХОНАНИ ТАЙЁРЛАШ, ҚАЙТА ИШЛАШ, ЯКУНИЙ ТОЗАЛАШ, ВЕНТИЛЯТСИЯ ВА НАЗОРАТ ТЕКШИРУВИ."
+            },
+            "itemThree":{
+                "title":"Sizga Ma'qul Vaqtda",
+                "description":"СИЗ ЎЗИНГИЗ УЧУН МАҚУЛ ВА ҚУЛАЙ ВАҚТНИ ТАНЛАНГ ВА БИЗГА МУРОЖАТ ҚИЛИНГ. СИЗГА КАФОЛАТЛАНГАН ВА САМАРАЛИ НАТИЖАНИ ОЛИБ БОРАМИЗ."
+            }                      
+        },
+        "serverOne" :{
+            "title":"Klapa va zararli hashorot endi yo’q deb hisoblang !!!",
+            "description":"Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+        },
+        "serverTwo":{
+            "title":"Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina"
+        },
+        "faq":{
+            "one":{
+                "title":"Zararkunandalarni yo'q qilish qanday amalga oshiriladi?",
+                "description":"Махсус асбоб-ускуналар ёрдамида инсектитсидлар аерозолли туманга айланади ва девор қоғози, деворлар ва тахта плиталари орасидаги енг кичик бўшлиқларга, кўзгакўринмас ҳашаротлар учун потентсиал 'яшириш жойлари' га киради."
+            },
+            "two":{
+                "title":"Опасны Ли Используемые Вами Препараты?",
+                "description":"Для людей, домашних питомцев и растений препараты не представляют опасности. Но после обработки помещение необходимо всё же проветрить в течение 40 минут."
+            },
+            "three":{
+                "title":"Мне Нужно Как-То Подготовить Свой Дом Для Обработки?",
+                "description":"В основном нужно изолировать посуду и средства личной гигиены. Также нужно изолировать домашних животных на время обработки. Передвигать мебель и бытовую технику не требуется."
+            }
+        }
+    }
+}

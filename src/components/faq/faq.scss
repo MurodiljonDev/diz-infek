@@ -1,0 +1,22 @@
+.faq{
+    margin-bottom: 100px;
+    .faq-box{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        .faq-title{
+            h3{
+                padding-left: 50px;
+                font-family: 'Unbounded',sans-serif;
+                font-size: 68px;
+                font-weight: 700;
+                line-height: 48px;
+                text-align: left;
+                 
+            }
+        }
+        .faq-itmes{
+            width: 70%;
+        }
+    }
+}

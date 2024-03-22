@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+@font-face {
+    font-family: "Sf Medium";
+    src: url("./fonts/SFPMEDIUM.OTF") format("OTF");
+};
+
+@font-face {
+    font-family: "Sf Regular";
+    src: url("./fonts/SFPREGULAR.OTF") format("OTF");
+};
+
+@font-face {
+    font-family: "Sf Bold";
+    src: url("./fonts/SFPRBOLD.OTF") format("OTF");
+};
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1560px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+:root{
+    --main-color: #3360FF;
+}
+
+.drawer_btn{
+    text-align: center;
+}

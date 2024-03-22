@@ -1,0 +1,133 @@
+.nav {
+    margin-top: 20px;
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    background-color: white;
+    z-index: 6;
+    .nav-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            padding-top: 15px;
+
+            img {
+                margin-top: 15px;
+                height: 60px;
+            }
+
+            h4 {
+                font-family: "Unbounded";
+                font-weight: 700;
+                font-size: 28px;
+                color: var(--main-color);
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            .nav-links_items {
+                padding-top: 10px;
+                width: 100%;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                gap: 35px;
+                li {
+                    cursor: pointer;
+                    font-family: "Sf Regular";
+                    font-size: 21px;
+                    font-weight: 400px;
+                    color: #666666;
+                }
+                li:hover{
+                    color: rgb(43, 43, 43);
+                }
+            }
+
+            .nav-select {
+                padding-top: 10px;
+                padding-right: 30px;
+                .nav-select_items {
+                    cursor: pointer;
+                    border: 2px solid rgb(116, 114, 114);
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                    font-size: 18px;
+                    font-family: "Unbounded";
+                }
+                .nav-select_items:hover{
+                    background-color: rgb(243, 236, 236);
+                }
+            }
+        }
+
+        .burger-menu {
+            display: none;
+        }
+
+    }
+}
+
+
+@media (max-width:1100px) {
+
+    .nav {
+        margin-top: 20px;
+
+        .nav-box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 40px;
+
+            .nav-logo {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                padding-top: 15px;
+
+                img {
+                    margin-top: 15px;
+                    height: 40px;
+                }
+
+                h4 {
+                    font-family: "Unbounded";
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+            }
+
+            .nav-links {
+                .nav-links_items {
+                    display: none;
+                }
+                .nav-btn{
+                    display: none;
+                }
+                .nav-select{
+                    padding-left: 30px;
+                }
+            }
+
+            .burger-menu {
+                display: block;
+            }
+
+        }
+    }
+
+
+
+}
