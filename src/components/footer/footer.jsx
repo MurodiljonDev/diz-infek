@@ -1,10 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './footer.scss'
 import logo from "../../assets/Logo.png"
 import { useTranslation } from 'react-i18next'
 import RoomIcon from '@mui/icons-material/Room';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
+import Aos from 'aos';
+import "aos/dist/aos.css"
+
 const Footer = () => {
+    
+    useEffect(()=>{
+        Aos.init();
+    },[])
     const{t}= useTranslation()
   return (
     <div className='footer'>
@@ -17,7 +25,7 @@ const Footer = () => {
                 <div className="footer-info">
                     <div className="footer-localization-phone">
                         <RoomIcon/>
-                        <span>Uzebkistan, Toshkent shahri</span>
+                        <span>{t('main.footer.city')}</span>
                     </div>
                     <div className="footer-localization-phone">
                         <LocalPhoneIcon />

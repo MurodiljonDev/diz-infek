@@ -18,3 +18,25 @@
         background-color: rgb(18, 62, 158);
     }
 }
+@media(max-width:530px){
+    .nav-button {
+        button {
+            width: 156px;
+            height: 46px;
+            border-radius: 20px;
+            border: none;
+            background-color: var(--main-color);
+            ;
+        }
+        button {
+            cursor: pointer;
+            font-family: "Unbounded";
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+        }
+        button:hover{
+            background-color: rgb(18, 62, 158);
+        }
+    }
+}   

@@ -1,5 +1,5 @@
 .our-server{
-    margin-bottom: 146px;
+    margin-bottom: 100px;
     .our-server_box{
         display: flex;
         justify-content: space-between;
@@ -42,4 +42,93 @@
         }
 
     }
+}
+@media(max-width:1100px){
+    .our-server{
+        margin-bottom: 70px;
+        .our-server_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            text-align: center;
+        }
+        .our-server_box{
+            min-height: 0;
+            background: radial-gradient(95.44% 490.36% at 92.87% 11.25%, #33A9FF 0%, #33FFF3 ) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            border-radius: 20px;
+            padding: 32px;
+            .our-server_img{
+                width: 100%;
+                img{
+                    width: 100%;
+                    max-width: 850px;
+                    height: 470px;               
+                    border-radius: 12px;
+                    opacity: 0px;
+                }
+            }
+            .our-server_title{
+                .our-server_title-Img{
+                    padding-top: 20px;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                h2{
+                    padding-bottom: 30px;
+                }
+                h2{
+                    max-width: 642px;
+                    font-family: Unbounded;
+                    font-size: 23px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: #FAFAFA;
+                }
+            }
+    
+        }
+    } 
+}
+@media(max-width:530px){
+    .our-server{
+        margin-bottom: 50px;
+        .our-server_box{
+            padding: 42px;
+            .our-server_img{
+                width: 100%;
+                img{
+                    width: 100%;
+                    max-width: 450px;
+                    height: 270px;               
+                    border-radius: 12px;
+                    opacity: 0px;
+                }
+            }
+            .our-server_title{
+                .our-server_title-Img{
+                    padding-top: 20px;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                h2{
+                    padding-bottom: 20px;
+                }
+                h2{
+                    max-width: 642px;
+                    font-family: Unbounded;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: #FAFAFA;
+                }
+            }
+    
+        }
+    } 
 }

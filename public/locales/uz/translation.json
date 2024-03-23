@@ -1,6 +1,6 @@
 {
     "main":{
-        "logo": "Dizinfeksiya",
+        "logo": "Bakteriyasiz",
         "nav": {
             "one": "Asosiy",
             "two":"Biz haqimizda",
@@ -47,6 +47,14 @@
                 "title":"Мне Нужно Как-То Подготовить Свой Дом Для Обработки?",
                 "description":"В основном нужно изолировать посуду и средства личной гигиены. Также нужно изолировать домашних животных на время обработки. Передвигать мебель и бытовую технику не требуется."
             }
+        },
+        "contact":{
+            "title":"Ma'lumotingizni qoldiring",
+            "inputIn" : "Ismingiz",
+            "btn":"Yuboring"
+        },
+        "footer":{
+            "city":"O'zbekiston, Toshkent shaxri"
         }
     }
 }

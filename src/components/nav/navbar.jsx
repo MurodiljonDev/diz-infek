@@ -20,10 +20,10 @@ const {t, i18n} = useTranslation()
                     </div>
                     <div className="nav-links">
                         <ul className='nav-links_items'>
-                            <li>{t('main.nav.one')}</li>
-                            <li>{t('main.nav.two')}</li>
-                            <li>{t('main.nav.three')}</li>
-                            <li>{t('main.nav.four')}</li>
+                            <li><a href="#main">{t('main.nav.one')}</a></li>
+                            <li><a href="#aboutUs">{t('main.nav.two')}</a></li>
+                            <li><a href="#service">{t('main.nav.three')}</a></li>
+                            <li><a href="#faq">{t('main.nav.four')}</a></li>
                         </ul>
                         <div className="nav-select">
                             <select className='nav-select_items' onChange={handleChangeLanguage}>
@@ -32,7 +32,7 @@ const {t, i18n} = useTranslation()
                             </select>
                         </div>
                         <div className="nav-btn">
-                            <ButtonMe btnString={t('main.btn')}/>
+                            <a href="#connect"><ButtonMe btnString={t('main.btn')}/></a>
                         </div>
                     </div>
 

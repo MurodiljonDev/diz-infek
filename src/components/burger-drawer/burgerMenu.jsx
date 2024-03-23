@@ -10,6 +10,8 @@ import ListItemText from '@mui/material/ListItemText';
 import burgerMenu from "../../assets/burger-menu.png";
 import ButtonMe from '../reusable-btn/button';
 
+import "./burgerMenu.scss"
+
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
 
@@ -20,18 +22,39 @@ export default function TemporaryDrawer() {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Asosiy', 'Biz haqimizda', 'Xizmatlar', 'Faq'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
-            </ListItemButton>
+          <ListItem disablePadding>
+            {/* <ListItemButton> */}
+                <div className="burger-list">
+                  <a href="#main">
+                      <ListItemButton>
+                            <ListItemText className='burger-list_item' paddin g="20px" primary="Asosiy" />
+                      </ListItemButton>
+                  </a>
+                  <a href="#aboutUs">
+                      <ListItemButton>
+                            <ListItemText className='burger-list_item' padding="20px" primary="Biz Xaqimizda" />
+                      </ListItemButton>
+                  </a>
+                  <a href="#service">
+                      <ListItemButton>
+                            <ListItemText className='burger-list_item' padding="20px" primary="Xizmatlar" />
+                      </ListItemButton>
+                  </a>
+                 <a href="#faq">
+                      <ListItemButton>
+                            <ListItemText className='burger-list_item' padding="20px" primary="Faq" />
+                      </ListItemButton>
+                 </a>
+                  
+                  
+                </div>
+            {/* </ListItemButton> */}
           </ListItem>
-        ))}
       </List>
       <Divider />
       <List>
         <div className="drawer_btn">
-          <ButtonMe/>
+          <a href="#connect"><ButtonMe/></a>
         </div>
       </List>
     </Box>

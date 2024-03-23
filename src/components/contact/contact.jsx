@@ -1,26 +1,36 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import onePers from  "../../assets/dizinefBro.png"
-import ButtonMe from "../reusable-btn/button"
 import "./contact.scss"
+import { useTranslation } from 'react-i18next';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const Contact = () => {
+    const {t} = useTranslation()
+    useEffect(()=>{
+        Aos.init();
+    },[])
   return (
-    <div className='contact'>
+    <div className='contact' id='connect'>
         <div className="container">
             <div className="contact-box">
-                <div className="contact-inputs">
+                <div className="contact-inputs" 
+                    data-aos="fade-right"
+                    data-aos-duration="900">
                     <div className="contact-inputs_title">
-                        <h4>Malumotingizni qoldiring</h4>
+                        <h4>{t('main.contact.title')}</h4>
                     </div>
                     <div className="contact-inputs_items">
-                        <input type="text" placeholder='Ismingiz' />
+                        <input type="text" placeholder={t('main.contact.inputIn')} />
                         <input type="nuumber"  placeholder='+998-90-123-45-67'/>
                     </div>
                     <div className="contact-inputs_btn">
-                        <button type='submit' className='contact-btn'>Yuborish</button>
+                        <button type='submit' className='contact-btn'>{t('main.contact.btn')}</button>
                     </div>
                 </div>
-                <div className="contact-img">
+                <div className="contact-img"
+                      data-aos="fade-left"
+                      data-aos-duration="900">
                     <img src={onePers} alt="PersDizinfek" />
                 </div>
             </div>

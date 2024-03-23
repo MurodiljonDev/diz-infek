@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+}
 @font-face {
     font-family: "Sf Medium";
     src: url("./fonts/SFPMEDIUM.OTF") format("OTF");
@@ -20,7 +31,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
+body::-webkit-scrollbar{
+    display: none;
+}
 .container{
     max-width: 1560px;
     padding: 0 20px;

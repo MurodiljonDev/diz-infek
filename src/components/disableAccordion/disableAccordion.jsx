@@ -4,9 +4,11 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useTranslation } from 'react-i18next';
 import "./disable.scss"
 
 export default function DisabledAccordion() {
+  const {t} = useTranslation()
   return (
     <div>
       <Accordion border={"none"}>
@@ -16,17 +18,16 @@ export default function DisabledAccordion() {
           id="panel1-header"
         >
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"32px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}>Zararkunandalarni yo'q qilish qanday amalga oshiriladi?</Typography>
+                    fontSize={"26px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#676D83"}
+                    padding={"25px"}>{t('main.faq.one.title')}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"24px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#106D93"}>
-          Махсус асбоб-ускуналар ёрдамида инсектитсидлар
-        аерозолли туманга айланади ва девор қоғози, деворлар
-         ва тахта плиталари орасидаги енг кичик бўшлиқларга, кўзга
-          кўринмас ҳашаротлар учун потентсиал 'яшириш жойлари' га киради.
+                    fontSize={"16px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#444343"}
+                    padding={"12px"}>
+          {t('main.faq.one.description')}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -37,16 +38,16 @@ export default function DisabledAccordion() {
           id="panel2-header"
         >
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"32px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}>Siz foydalana oladigan dorilar havflimi?</Typography>
+                    fontSize={"26px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#676D83"}
+                    padding={"25px"}>{t('main.faq.two.title')}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"24px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#106D93"}>
-          Препаратлар одамлар, уй ҳайвонлари ва ўсимликлар учун хавфли емас.
-         Аммо даволанишдан кейин хонани 40 дақиқа давомида вентилятсия
-          қилиш керак.
+                    fontSize={"16px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#444343"}
+                    padding={"12px"}>
+        {t('main.faq.two.description')}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -57,18 +58,16 @@ export default function DisabledAccordion() {
           id="panel3-header"
         >
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"32px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}>Menga uyimni davolanishga tayyorlashning
-            4 qandaydir usuli kerakmi?</Typography>
+                    fontSize={"26px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#676D83"}
+                    padding={"25px"}>{t('main.faq.three.title')}</Typography>
         </AccordionSummary>
          <AccordionDetails>
           <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"24px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#106D93"}>
-          Асосан, идиш-товоқ ва шахсий гигиена воситаларини
-           изолятсия қилишингиз керак. Даволаш пайтида уй ҳайвонлари
-            ҳам изолятсия қилиниши керак. Мебел ёки маиший техникани
-             кўчиришга ҳожат йўқ.
+                    fontSize={"16px"} fontWeight={"500"}
+                    lineHeight={"32px"} color={"#444343"}
+                    padding={"8px"}>
+            {t('main.faq.three.description')}
           </Typography>
           </AccordionDetails>
       </Accordion>

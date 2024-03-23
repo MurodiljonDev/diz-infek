@@ -1,0 +1,32 @@
+.burger-list{
+    text-align: center;
+    padding-left: 25px;
+    a{
+        padding: 50px;
+        span{
+            font-family: "Unbounded", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    a:hover{
+        color: #000;
+    }
+}
+@media (max-width:530px){
+    .burger-list{
+        text-align: center;
+        padding-left: 15px;
+        a{
+            padding: 50px;
+            span{
+                font-family: "Unbounded", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        a:hover{
+            color: #000;
+        }
+    }
+}
