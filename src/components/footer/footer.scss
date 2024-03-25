@@ -11,15 +11,14 @@
             align-items: center;
             padding-top: 15px;
             img {
-                margin-top: 15px;
-                height: 60px;
+               display: none;
             }
 
             h4 {
                 padding-left: 10px;
                 font-family: "Unbounded";
                 font-weight: 700;
-                font-size: 28px;
+                font-size: 32px;
                 color: var(--main-color);
             }
         }
@@ -74,7 +73,7 @@
                     padding-left: 10px;
                     font-family: "Unbounded";
                     font-weight: 700;
-                    font-size: 28px;
+                    font-size: 32px;
                     color: var(--main-color);
                 }
             }

@@ -9,11 +9,14 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import burgerMenu from "../../assets/burger-menu.png";
 import ButtonMe from '../reusable-btn/button';
+import { useTranslation } from 'react-i18next';
 
 import "./burgerMenu.scss"
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
+
+  const {t} = useTranslation()
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
@@ -27,22 +30,22 @@ export default function TemporaryDrawer() {
                 <div className="burger-list">
                   <a href="#main">
                       <ListItemButton>
-                            <ListItemText className='burger-list_item' padding="20px" primary="Asosiy" />
+                            <ListItemText className='burger-list_item' padding="20px" primary={t('main.nav.one')} />
                       </ListItemButton>
                   </a>
                   <a href="#aboutUs">
                       <ListItemButton>
-                            <ListItemText className='burger-list_item' padding="20px" primary="Biz Xaqimizda" />
+                            <ListItemText className='burger-list_item' padding="20px" primary={t('main.nav.two')} />
                       </ListItemButton>
                   </a>
                   <a href="#service">
                       <ListItemButton>
-                            <ListItemText className='burger-list_item' padding="20px" primary="Xizmatlar" />
+                            <ListItemText className='burger-list_item' padding="20px" primary={t('main.nav.three')} />
                       </ListItemButton>
                   </a>
                  <a href="#faq">
                       <ListItemButton>
-                            <ListItemText className='burger-list_item' padding="20px" primary="Faq" />
+                            <ListItemText className='burger-list_item' padding="20px" primary={t('main.nav.four')} />
                       </ListItemButton>
                  </a>
                   
