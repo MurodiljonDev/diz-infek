@@ -23,7 +23,8 @@
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 40px;  
-                    padding-bottom: 20px;                  
+                    padding-bottom: 20px;        
+                    color: var(--main-color);          
                 }
             }
             .contact-inputs_items{
@@ -48,11 +49,11 @@
                     width: 100%;
                     border-radius: 8px;
                     height: 48px;
-                    background-color: #242825;
+                    background-color: var(--main-color);
                     border: none;
                 }
                 button:hover{
-                    background-color: #424443;
+                    background-color: rgba(61, 61, 249, 0.643);
                 }
                 button{
                     cursor: pointer;
@@ -83,7 +84,7 @@
         .contact-box{
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             padding: 32px 50px;
             background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
             border-radius: 20px;
@@ -103,7 +104,8 @@
                         font-size: 32px;
                         font-weight: 700;
                         line-height: 40px;  
-                        padding-bottom: 20px;                  
+                        padding-bottom: 20px; 
+                        color: var(--main-color);                 
                     }
                 }
                 .contact-inputs_items{
@@ -128,11 +130,11 @@
                         width: 100%;
                         border-radius: 8px;
                         height: 48px;
-                        background-color: #242825;
+                        background-color: var(--main-color);
                         border: none;
                     }
                     button:hover{
-                        background-color: #424443;
+                        background-color: rgba(61, 61, 249, 0.643);
                     }
                     button{
                         cursor: pointer;
@@ -145,14 +147,7 @@
                 }          
             }
             .contact-img{
-                position: relative;
-                z-index: -1;
-                img{
-                    z-index: -1;
-                    position: absolute;
-                    top:-4px;
-                    right:-200px;
-                }
+                display: none;
             }
         }
     }
@@ -210,11 +205,11 @@
                         width: 100%;
                         border-radius: 8px;
                         height: 48px;
-                        background-color: #242825;
+                        background-color: var(--main-color);
                         border: none;
                     }
                     button:hover{
-                        background-color: #424443;
+                        background-color: rgba(61, 61, 249, 0.643);
                     }
                     button{
                         cursor: pointer;

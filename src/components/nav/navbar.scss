@@ -140,6 +140,21 @@
                     font-size: 20px;
                 }
             }
+            .nav-links {
+                // display: none;
+                .nav-links_items {
+                    display: none;
+                }
+                .nav-btn{
+                    display: none;
+                }
+                .nav-select{
+                    padding-left: 20px;
+                }
+            }
+            // .burger-menu{
+            //     padding-righit: 0;
+            // }
         }
     }
 }

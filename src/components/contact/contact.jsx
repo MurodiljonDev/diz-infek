@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="container">
             <div className="contact-box">
                 <div className="contact-inputs" 
-                    data-aos="fade-right"
+                    data-aos="flip-down"
                     data-aos-duration="900">
                     <div className="contact-inputs_title">
                         <h4>{t('main.contact.title')}</h4>
@@ -29,7 +29,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact-img"
-                      data-aos="fade-left"
+                      data-aos="flip-up"
                       data-aos-duration="900">
                     <img src={onePers} alt="PersDizinfek" />
                 </div>

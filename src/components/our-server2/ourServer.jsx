@@ -17,13 +17,13 @@ const OurServer = () => {
         <div className="container">
             <div className="our-server_box">
                 <div className="our-server_img"
-                    data-aos="fade-right"
+                    data-aos="flip-up"
                     data-aos-duration="1000">
                     <img src={person2} alt="person2" />
                 </div>
                 <div className="our-server_title"
-                     data-aos="fade-left"
-                     data-aos-duration="900">
+                     data-aos="flip-down"
+                     data-aos-duration="1200">
                     <div className="our-server_title-Img">
                         <img src={ptichka} alt="ptichka" />
                     </div>

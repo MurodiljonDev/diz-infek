@@ -12,11 +12,14 @@
     a:hover{
         color: #000;
     }
+    .imgBurger{
+        width: 60px;
+    }
 }
-@media (max-width:530px){
+@media (max-width:1100px){
     .burger-list{
         text-align: center;
-        padding-left: 15px;
+        padding-left: 5px;
         a{
             padding: 50px;
             span{
@@ -27,6 +30,43 @@
         }
         a:hover{
             color: #000;
+        }
+    }
+    .drawer_btn{
+        padding-top: 10px;
+    }
+    .imgBurger{
+        width:75px;
+        // padding-right: 20px;
+    }
+}
+@media (max-width:530px){
+    .burger-list{
+        text-align: center;
+        padding-left: 5px;
+        a{
+            padding: 50px;
+            span{
+                font-family: "Unbounded", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        a:hover{
+            color: #000;
+        }
+    }
+    .drawer_btn{
+        padding-top: 10px;
+    }
+    .imgBurger{
+        width:60px;
+        // margin-right: 50px;
+    }
+    .img-Brg{
+        img{
+            width:60px;
+            // margin-right: 50px;
         }
     }
 }

@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="header-title-description">
                     <div className="header-title_items">
                         <div className="header-title_detail"
-                            data-aos="zoom-out-right"
+                            data-aos="flip-up"
                             data-aos-duration="2000"
                             animation-delay="1000"
                          >
@@ -29,7 +29,7 @@ const Header = () => {
                             <p>{t('main.header.description')}</p>
                         </div>
                         <div className="header-title_sprayPhoto"
-                            data-aos="zoom-out-right"
+                            data-aos="flip-down"
                             data-aos-duration="2000">
                             <div className="one-element"></div>
                             <div className="two-element"></div>

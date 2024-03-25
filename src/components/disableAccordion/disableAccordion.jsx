@@ -17,16 +17,10 @@ export default function DisabledAccordion() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"26px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}
-                    padding={"25px"}>{t('main.faq.one.title')}</Typography>
+          <Typography>{t('main.faq.one.title')}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"16px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#444343"}
-                    padding={"12px"}>
+          <Typography>
           {t('main.faq.one.description')}
           </Typography>
         </AccordionDetails>
@@ -37,17 +31,11 @@ export default function DisabledAccordion() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"26px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}
-                    padding={"25px"}>{t('main.faq.two.title')}</Typography>
-        </AccordionSummary>
+          <Typography>{t('main.faq.two.title')}</Typography>
+        </AccordionSummary> 
         <AccordionDetails>
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"16px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#444343"}
-                    padding={"12px"}>
-        {t('main.faq.two.description')}
+          <Typography>
+              {t('main.faq.two.description')}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -57,16 +45,10 @@ export default function DisabledAccordion() {
           aria-controls="panel3-content"
           id="panel3-header"
         >
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"26px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#676D83"}
-                    padding={"25px"}>{t('main.faq.three.title')}</Typography>
+          <Typography>{t('main.faq.three.title')}</Typography>
         </AccordionSummary>
          <AccordionDetails>
-          <Typography fontFamily={"Unbounded,sans-serif"}
-                    fontSize={"16px"} fontWeight={"500"}
-                    lineHeight={"32px"} color={"#444343"}
-                    padding={"8px"}>
+          <Typography>
             {t('main.faq.three.description')}
           </Typography>
           </AccordionDetails>

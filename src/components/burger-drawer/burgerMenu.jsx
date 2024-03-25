@@ -27,7 +27,7 @@ export default function TemporaryDrawer() {
                 <div className="burger-list">
                   <a href="#main">
                       <ListItemButton>
-                            <ListItemText className='burger-list_item' paddin g="20px" primary="Asosiy" />
+                            <ListItemText className='burger-list_item' padding="20px" primary="Asosiy" />
                       </ListItemButton>
                   </a>
                   <a href="#aboutUs">
@@ -62,7 +62,9 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={toggleDrawer(true)}><img width={60} src={burgerMenu} alt="" /></Button>
+      <div className='img-Brg'>
+        <Button onClick={toggleDrawer(true)}><img className='imgBurger' src={burgerMenu} alt="" /></Button>
+      </div>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>

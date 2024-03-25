@@ -17,12 +17,12 @@ const Prefer = () => {
         <div className="container">
             <div className="prefer-box">
                 <div className="prefer-title">
-                    <h2 data-aos="flip-right"
+                    <h2 data-aos="flip-up"
                     data-aos-duration="1000">{t('main.prefer.title')}</h2>
                 </div>
                 <div className="prefer-items_box">
                     <div className="prefer-item" 
-                        data-aos="fade-down-right"
+                        data-aos="flip-down"
                         data-aos-duration="800"
                     >
                         <div className="prefer-item_img">
@@ -34,7 +34,7 @@ const Prefer = () => {
                         </div>
                     </div>
                     <div className="prefer-item" 
-                        data-aos="zoom-out-down"
+                        data-aos="flip-up"
                         data-aos-duration="800">
                         <div className="prefer-item_img">
                             <EngineeringIcon/>
@@ -45,7 +45,7 @@ const Prefer = () => {
                         </div>
                     </div>
                     <div className="prefer-item" 
-                        data-aos="fade-down-left"
+                        data-aos="flip-up"
                         data-aos-duration="800">
                         <div className="prefer-item_img">
                             <HandshakeIcon/>
