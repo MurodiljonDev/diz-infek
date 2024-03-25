@@ -235,3 +235,53 @@
         }
     }
 }
+@media(max-width:410px){
+    .contact{
+        margin-bottom: 60px;
+        position: relative;
+        z-index: 4;
+        .contact-box{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 50px;
+            background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            border-radius: 20px;
+            .contact-inputs{
+                position: relative;
+                width: 100%;
+                max-width: 484px;
+                border-radius: 8px;
+                padding: 32px 24px;
+                padding-bottom: 32px;
+                background-color: #FFFFFF;
+                .contact-inputs_title{
+                    width: 100%;
+                    h4{
+                        width: 100%;
+                        font-family: "Unbounded",sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 40px;  
+                        padding-bottom: 20px;                  
+                    }
+                }
+                .contact-inputs_items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    input{
+                        text-indent: 10px;
+                        height: 38px;
+                        border: none;
+                        border-radius: 5px;
+                        background-color:#F2F2F2;
+                    }
+                    input::placeholder{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
