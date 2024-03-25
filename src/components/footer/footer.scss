@@ -60,15 +60,14 @@
             align-items: center;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 70px;
+            gap: 20px;
             .footer-logo{
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
-                padding-top: 15px;
+                padding-top: 8px;
                 img {
-                    margin-top: 15px;
-                    height: 60px;
+                    display: none;
                 }
     
                 h4 {
