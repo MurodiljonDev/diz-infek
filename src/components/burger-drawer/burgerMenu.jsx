@@ -57,7 +57,7 @@ export default function TemporaryDrawer() {
       <Divider />
       <List>
         <div className="drawer_btn">
-          <a href="#connect"><ButtonMe/></a>
+          <a href="#connect"><ButtonMe btnString={t('main.btn')}/></a>
         </div>
       </List>
     </Box>
