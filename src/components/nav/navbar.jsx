@@ -6,10 +6,16 @@ import { useTranslation } from "react-i18next";
 import ButtonMe from "../reusable-btn/button";
 const Navbar = () => {
   const { t, i18n } = useTranslation();
-
+  const [langNow, setNalgNow] = React.useState(null)
   const handleChangeLanguage = (e) => {
     i18n.changeLanguage(e.target.value);
   };
+  React.useEffect(() => {
+    const lang = localStorage.getItem("i18nextLng") == "ru"
+    ? "Русский"
+    : "Uzbek"
+    setNalgNow(lang)
+  }, []);
   return (
     <div className="nav">
       <div className="container">
@@ -40,9 +46,7 @@ const Navbar = () => {
               >
                 <option selected hidden>
                   {" "}
-                  {localStorage.getItem("i18nextLng") == "ru"
-                    ? "Русский"
-                    : "Uzbek"}
+                  {langNow}
                 </option>
                 <option value="uz">Uzbekcha</option>
                 <option value="ru">Русский</option>
