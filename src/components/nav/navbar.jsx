@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./navbar.scss";
 import logo from "../../assets/Logo.png";
 import TemporaryDrawer from "../burger-drawer/burgerMenu";
 import { useTranslation } from "react-i18next";
 import ButtonMe from "../reusable-btn/button";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [langNow, setNalgNow] = React.useState(null)
@@ -16,6 +17,9 @@ const Navbar = () => {
     : "Uzbek"
     setNalgNow(lang)
   }, []);
+
+
+ 
   return (
     <div className="nav">
       <div className="container">
@@ -30,13 +34,13 @@ const Navbar = () => {
                 <a href="#main">{t("main.nav.one")}</a>
               </li>
               <li>
-                <a href="#aboutUs">{t("main.nav.two")}</a>
+                <a  onClick={()=> window.scrollTo(540,540)}  >{t("main.nav.two")}</a>
               </li>
               <li>
-                <a href="#service">{t("main.nav.three")}</a>
+                <a onClick={()=> window.scrollTo(1100,1100)}>{t("main.nav.three")}</a>
               </li>
               <li>
-                <a href="#faq">{t("main.nav.four")}</a>
+                <a onClick={()=> window.scrollTo(2400,2400)}>{t("main.nav.four")}</a>
               </li>
             </ul>
             <div className="nav-select">
